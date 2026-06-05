@@ -30,4 +30,4 @@ This project contains examples of all basic HTML topics from W3Schools.
 This project was created as a practice for learning HTML basics step by step.
 
 ## Author:
-Seraj
+Seraj 
