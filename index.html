@@ -1,19 +1,120 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <title>HTML Topics</title>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>HTML Learning Project</title>
+
+<style>
+
+body{
+font-family:Arial,sans-serif;
+background:#f4f6f9;
+margin:0;
+padding:40px;
+}
+
+.container{
+max-width:900px;
+margin:auto;
+}
+
+h1{
+text-align:center;
+color:#222;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+margin-top:40px;
+}
+
+.card{
+
+background:white;
+
+padding:25px;
+
+border-radius:15px;
+
+box-shadow:0 4px 12px rgba(0,0,0,.08);
+
+transition:.3s;
+
+}
+
+.card:hover{
+
+transform:translateY(-5px);
+
+}
+
+a{
+
+text-decoration:none;
+
+color:#0a66ff;
+
+font-size:18px;
+
+}
+
+</style>
+
 </head>
 
 <body>
 
-    <h1>HTML Examples</h1>
+<div class="container">
 
-    <a href="headings.html">Headings</a><br>
-    <a href="paragraphs.html">Paragraphs</a><br>
-    <a href="tables.html">Tables</a><br>
-    <a href="forms.html">Forms</a>
+<h1>HTML Examples Project</h1>
+
+<div class="grid">
+
+<div class="card">
+<a href="headings.html">
+Headings
+</a>
+</div>
+
+<div class="card">
+<a href="paragraphs.html">
+Paragraphs
+</a>
+</div>
+
+<div class="card">
+<a href="tables.html">
+Tables
+</a>
+</div>
+
+<div class="card">
+<a href="forms.html">
+Forms
+</a>
+</div>
+
+<div class="card">
+<a href="images.html">
+Images
+</a>
+</div>
+
+<div class="card">
+<a href="links.html">
+Links
+</a>
+</div>
+
+</div>
+
+</div>
 
 </body>
 
