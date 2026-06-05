@@ -19,14 +19,22 @@ a{text-decoration:none;color:#0a66ff;}
 
 <h1>Canvas Example</h1>
 
-<canvas id="myCanvas" width="300" height="200" style="border:1px solid #000;"></canvas>
+<canvas id="myCanvas" width="300" height="200" style="border:1px solid black;"></canvas>
 
 <script>
 let c = document.getElementById("myCanvas");
 let ctx = c.getContext("2d");
 
-ctx.fillStyle = "blue";
-ctx.fillRect(50, 50, 150, 80);
+// background
+ctx.fillStyle = "#0a66ff";
+ctx.fillRect(0, 0, 300, 200);
+
+// circle
+ctx.beginPath();
+ctx.arc(150, 100, 50, 0, Math.PI * 2);
+ctx.fillStyle = "white";
+ctx.fill();
+ctx.stroke();
 </script>
 
 <br><br>
