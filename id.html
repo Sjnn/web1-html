@@ -2,22 +2,70 @@
 <html lang="en">
 
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ID</title>
+
+<title>ID Example</title>
 
 <style>
-body{font-family:Arial;background:#f4f6f9;padding:50px;}
-.card{max-width:800px;margin:auto;background:white;padding:30px;border-radius:15px;box-shadow:0 5px 20px rgba(0,0,0,.1);}
 
-#special{
-color:white;
-background:black;
-padding:20px;
-border-radius:10px;
+body{
+font-family:Arial;
+background:#f4f6f9;
+padding:50px;
 }
 
-a{text-decoration:none;color:#0a66ff;}
+.card{
+max-width:800px;
+margin:auto;
+background:white;
+padding:30px;
+border-radius:15px;
+box-shadow:0 5px 20px rgba(0,0,0,.1);
+}
+
+#title{
+color:#0a66ff;
+text-align:center;
+}
+
+#box1{
+background:#ff4d4d;
+color:white;
+padding:15px;
+margin-top:10px;
+border-radius:8px;
+}
+
+#box2{
+background:#4d79ff;
+color:white;
+padding:15px;
+margin-top:10px;
+border-radius:8px;
+}
+
+#box3{
+background:#28a745;
+color:white;
+padding:15px;
+margin-top:10px;
+border-radius:8px;
+}
+
+.note{
+margin-top:20px;
+padding:15px;
+background:#f1f1f1;
+border-left:5px solid #0a66ff;
+}
+
+a{
+text-decoration:none;
+color:#0a66ff;
+}
+
 </style>
 
 </head>
@@ -26,9 +74,15 @@ a{text-decoration:none;color:#0a66ff;}
 
 <div class="card">
 
-<h1>ID Example</h1>
+<h1 id="title">ID Example</h1>
 
-<p id="special">This element is styled using ID</p>
+<div id="box1">This is Box 1 (Red)</div>
+<div id="box2">This is Box 2 (Blue)</div>
+<div id="box3">This is Box 3 (Green)</div>
+
+<div class="note">
+Each box has a unique ID and different style.
+</div>
 
 <br>
 
@@ -37,4 +91,5 @@ a{text-decoration:none;color:#0a66ff;}
 </div>
 
 </body>
+
 </html>
